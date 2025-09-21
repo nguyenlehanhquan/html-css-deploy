@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport"
+		  content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Document</title>
+	<link rel="stylesheet" href="b22_douutientrongcss.css">
+	<style>
+        /*.text {*/
+        /*    color: red;*/
+        /*}*/
+
+
+        /*h1 {*/
+        /*    color: green;*/
+        /*}*/
+
+        /*Vừa có tag = h1, id = text, class = text, tăng độ ưu tiên, nhưng không qua được ! important*/
+        h1#text.text {
+            color: black;
+        }
+
+        #text {
+            color: purple !important;
+        }
+	</style>
+</head>
+<body>
+<div> Inline > Internal > External: cái này không còn đúng nếu style class năm ở external, tag name lạ ở internal</div>
+<div> Khuyến khích chỉ nên dùng các viết CSS external</div>
+<div>!Important (10000) > ID(1000) > CLASS(100) > TAG NAME (h1) (10) > HTML > Universal selector (1)</div>
+<!--<h1 style="color: red">Xin chào mọi người</h1>-->
+<h1 class="text" id="text">Xin chào mọi người</h1>
+
+
+</body>
+</html>

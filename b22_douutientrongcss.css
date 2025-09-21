@@ -1,0 +1,12 @@
+/*h1 {*/
+/*    color: yellow;*/
+/*}*/
+
+/*universal selector : bé hơn tất cả còn lại*/
+* {
+    color: blue;
+}
+
+html {
+    color: blue;
+}
