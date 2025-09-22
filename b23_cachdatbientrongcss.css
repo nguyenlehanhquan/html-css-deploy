@@ -1,0 +1,22 @@
+:root {
+    --my-color: green;
+    --my-fontSize: 100px;
+}
+
+/*h1 {*/
+/*    color: var(--my-color);*/
+/*}*/
+
+/*h2 {*/
+/*    color: var(--my-color);*/
+/*}*/
+
+h3 {
+    --my-color: red;
+    color: var(--my-color); /* Nếu các tên biến trùng nhau thì css sẽ lấy style trong cái scope gần nó nhất*/
+}
+
+h1 {
+    color: var(--my-color);
+    font-size: var(--my-fontSize);
+}
