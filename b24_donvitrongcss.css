@@ -1,0 +1,37 @@
+/*Absolute unit*/
+/*1 inch - 2.54 cm - 96px*/
+/*1px = 1/96th of 1 inch*
+/*1pt = 1/72th of 1 inch*/
+
+/*Relative unit*/
+/* % - phụ thuộc vào % của thằng cha gần nhất */
+/* em - phụ thuộc vào font-size của thằng cha: 2em = 2*font-size */
+/* rem - chỉ phụ thuộc vào font-size của thằng html thôi: html font-size mặc định là 16px */
+/* vh (view height) - chiếm bao nhiêu % chiều cao của cái browser */
+/* vw (view width) - chiếm bao nhiêu % chiều rộng của cái browser */
+/* 1vmin là 1% kích thước tối thiểu của browser ví dụ 1024*960 = 9.6px */
+/* 1vmax là 1% kích thước tối đa của browser ví dụ 1024*960 = 10.24px */
+
+h1 {
+    font-size: 2em;
+}
+
+html {
+    font-size: 20px;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+.box {
+    width: 50%;
+    height: 500px;
+    background-color: red;
+    font-size: 20px;
+}
+
+.box-2 {
+    height: 100vh;
+    width: 50vw;
+}

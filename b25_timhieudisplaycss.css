@@ -1,0 +1,15 @@
+h2, div, p {
+    /*display: block -- default*/
+    display: inline;
+    width: 200px;
+}
+
+span {
+    /*display: inline -- default*/
+    display: block;
+    width: 200px;
+}
+
+/*nếu đã để display: inline thì sẽ không thể set width cho nó được*/
+/*display: block thì set width được*/
+/*nếu muốn inline và set width được thì dùng display: inline-block*/
