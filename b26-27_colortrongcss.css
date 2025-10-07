@@ -1,0 +1,18 @@
+.color {
+    background-color: rgb(255, 255, 0);
+    color: #ff0000;
+}
+
+h2 {
+    color: rgba(220, 250, 200, 0.6);
+    background-color: transparent;
+}
+
+/*rgb 0 là đậm nhất, 255 là nhạt nhất*/
+/*HEX 00 đến ff - 00 là màu đậm nhất, ff là màu nhạt nhất*/
+/*hsl - hue, saturation, lightness
+hue là màu sắc : 0 -> 360 - 0 và 360 là màu đỏ, 120 là green, 240 là blue*/
+/*saturation là độ bão hòa - 0 -> 100% - 0% thì xám còn 100% thì lấy màu hue*/
+/*lightness là độ sangs thì nó 0 - 100% 0 thì sẽ tối và 100% là sáng, 50% là ở giữa không tối không sáng*/
+/*rgba thì có thêm điều chỉnh độ transparent của màu đó*/
+/*background: transparent thì màu nền sẽ trong suốt và parent class có thể xuyên màu*/
